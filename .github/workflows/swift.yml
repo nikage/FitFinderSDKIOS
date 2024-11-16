@@ -1,40 +1,26 @@
-Last login: Tue Nov 12 19:58:02 on console
-mykolamikhno @ Users/mykolamikhno % swift --version
 
-swift-driver version: 1.90.11.1 Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-Target: arm64-apple-macosx14.0
-mykolamikhno @ Users/mykolamikhno % cd projects
-cd %
-mykolamikhno @ mykolamikhno/projects % cd FitFinderSDK
-FitFinderSDK @ projects/FitFinderSDK % git remote add origin git@github.com:nikage/FitFinderSDKIOS.git
-FitFinderSDK @ projects/FitFinderSDK % git push origin main
-Enumerating objects: 54, done.
-Counting objects: 100% (54/54), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (48/48), done.
-Writing objects: 100% (54/54), 14.46 KiB | 2.07 MiB/s, done.
-Total 54 (delta 5), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (5/5), done.
-To github.com:nikage/FitFinderSDKIOS.git
-1   # This workflow will build a Swift project
-  1 # For more information see: https://docs.github.com/en/actions/automating-bu    ilds-and-tests/building-and-testing-swift
-  2
-  3 name: Swift
-  4
-  5 on:
-  6   push:
-  7     branches: [ "main" ]
-  8   pull_request:
-  9     branches: [ "main" ]
- 10
- 11 jobs:
- 12   build:
- 13
- 14     runs-on: macos-latest
- 15
- 16     steps:
- 17     - uses: actions/checkout@v4
- 18     - name: Build
- 19       run: swift build -v
-".github/workflows/swift.yml" 22L, 431B                       1,1           Top
+---
 
+### **GitHub CI/CD**
+Add a `.github/workflows/ci.yml` file:
+```yaml
+name: FitFinder CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Xcode
+        uses: maxim-lobanov/setup-xcode@v2
+        with:
+          xcode-version: '14.0'
+      - name: Run Tests
+        run: swift test
+ 
