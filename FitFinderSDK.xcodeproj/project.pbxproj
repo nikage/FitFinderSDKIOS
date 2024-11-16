@@ -7,14 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A7BE8032CE7E57B00BC6610 /* FitFinderSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8022CE7E57B00BC6610 /* FitFinderSDK.docc */; };
 		0A7BE8092CE7E57B00BC6610 /* FitFinderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7BE7FE2CE7E57B00BC6610 /* FitFinderSDK.framework */; };
-		0A7BE80E2CE7E57B00BC6610 /* FitFinderSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE80D2CE7E57B00BC6610 /* FitFinderSDKTests.swift */; };
-		0A7BE80F2CE7E57B00BC6610 /* FitFinderSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7BE8012CE7E57B00BC6610 /* FitFinderSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A7BE81A2CE7E5BE00BC6610 /* FitFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */; };
-		0A7BE81B2CE7E5BE00BC6610 /* FitFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */; };
-		0A7BE81D2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */; };
-		0A7BE81E2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */; };
 		0A7BE82E2CE7EBBE00BC6610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE82D2CE7EBBE00BC6610 /* AppDelegate.swift */; };
 		0A7BE8302CE7EBBE00BC6610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE82F2CE7EBBE00BC6610 /* SceneDelegate.swift */; };
 		0A7BE8322CE7EBBE00BC6610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8312CE7EBBE00BC6610 /* ViewController.swift */; };
@@ -24,6 +17,12 @@
 		0A7BE8452CE7EBC100BC6610 /* FitFinderSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8442CE7EBC100BC6610 /* FitFinderSampleAppTests.swift */; };
 		0A7BE84F2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE84E2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift */; };
 		0A7BE8512CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8502CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift */; };
+		0AA9C46B2CE8FFCB0072413A /* FitFinderSDK in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9C46A2CE8FFCB0072413A /* FitFinderSDK */; };
+		0AA9C46C2CE8FFCB0072413A /* FitFinderSDK in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9C46A2CE8FFCB0072413A /* FitFinderSDK */; };
+		0AA9C46D2CE8FFCB0072413A /* FitFinderSDK in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9C46A2CE8FFCB0072413A /* FitFinderSDK */; };
+		0AA9C46F2CE8FFF00072413A /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9C46E2CE8FFF00072413A /* Tests */; };
+		0AA9C4702CE8FFF00072413A /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9C46E2CE8FFF00072413A /* Tests */; };
+		0AA9C4712CE8FFF00072413A /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9C46E2CE8FFF00072413A /* Tests */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +51,7 @@
 
 /* Begin PBXFileReference section */
 		0A7BE7FE2CE7E57B00BC6610 /* FitFinderSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitFinderSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7BE8012CE7E57B00BC6610 /* FitFinderSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitFinderSDK.h; sourceTree = "<group>"; };
-		0A7BE8022CE7E57B00BC6610 /* FitFinderSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FitFinderSDK.docc; sourceTree = "<group>"; };
 		0A7BE8082CE7E57B00BC6610 /* FitFinderSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFinderSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7BE80D2CE7E57B00BC6610 /* FitFinderSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinderSDKTests.swift; sourceTree = "<group>"; };
-		0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinder.swift; sourceTree = "<group>"; };
-		0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCalculator.swift; sourceTree = "<group>"; };
 		0A7BE8222CE7E97A00BC6610 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		0A7BE82B2CE7EBBE00BC6610 /* FitFinderSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFinderSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7BE82D2CE7EBBE00BC6610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +66,8 @@
 		0A7BE84A2CE7EBC100BC6610 /* FitFinderSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFinderSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7BE84E2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinderSampleAppUITests.swift; sourceTree = "<group>"; };
 		0A7BE8502CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinderSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AA9C46A2CE8FFCB0072413A /* FitFinderSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FitFinderSDK; sourceTree = "<group>"; };
+		0AA9C46E2CE8FFF00072413A /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +113,7 @@
 		0A7BE7F42CE7E57B00BC6610 = {
 			isa = PBXGroup;
 			children = (
+				0AA9C46E2CE8FFF00072413A /* Tests */,
 				0A7BE85B2CE7EE2D00BC6610 /* SampleApp */,
 				0A7BE8222CE7E97A00BC6610 /* Package.swift */,
 				0A7BE8182CE7E5A800BC6610 /* Sources */,
@@ -141,8 +138,6 @@
 		0A7BE8002CE7E57B00BC6610 /* FitFinderSDK */ = {
 			isa = PBXGroup;
 			children = (
-				0A7BE8012CE7E57B00BC6610 /* FitFinderSDK.h */,
-				0A7BE8022CE7E57B00BC6610 /* FitFinderSDK.docc */,
 			);
 			path = FitFinderSDK;
 			sourceTree = "<group>";
@@ -150,7 +145,6 @@
 		0A7BE80C2CE7E57B00BC6610 /* FitFinderSDKTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A7BE80D2CE7E57B00BC6610 /* FitFinderSDKTests.swift */,
 			);
 			path = FitFinderSDKTests;
 			sourceTree = "<group>";
@@ -158,8 +152,7 @@
 		0A7BE8182CE7E5A800BC6610 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */,
-				0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */,
+				0AA9C46A2CE8FFCB0072413A /* FitFinderSDK */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -212,7 +205,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7BE80F2CE7E57B00BC6610 /* FitFinderSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +312,11 @@
 				TargetAttributes = {
 					0A7BE7FD2CE7E57B00BC6610 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					0A7BE8072CE7E57B00BC6610 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					0A7BE82A2CE7EBBE00BC6610 = {
 						CreatedOnToolsVersion = 15.4;
@@ -364,6 +358,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA9C46F2CE8FFF00072413A /* Tests in Resources */,
+				0AA9C46B2CE8FFCB0072413A /* FitFinderSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +367,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA9C4702CE8FFF00072413A /* Tests in Resources */,
+				0AA9C46C2CE8FFCB0072413A /* FitFinderSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +377,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7BE8372CE7EBC000BC6610 /* Assets.xcassets in Resources */,
+				0AA9C46D2CE8FFCB0072413A /* FitFinderSDK in Resources */,
+				0AA9C4712CE8FFF00072413A /* Tests in Resources */,
 				0A7BE83A2CE7EBC000BC6610 /* Base in Resources */,
 				0A7BE8352CE7EBBF00BC6610 /* Base in Resources */,
 			);
@@ -405,9 +405,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7BE8032CE7E57B00BC6610 /* FitFinderSDK.docc in Sources */,
-				0A7BE81D2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */,
-				0A7BE81A2CE7E5BE00BC6610 /* FitFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,9 +412,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7BE80E2CE7E57B00BC6610 /* FitFinderSDKTests.swift in Sources */,
-				0A7BE81E2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */,
-				0A7BE81B2CE7E5BE00BC6610 /* FitFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -641,6 +636,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -650,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -682,7 +679,7 @@
 		0A7BE8162CE7E57B00BC6610 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGM96VQ367;
@@ -691,6 +688,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickmihno.tests.fitfindersdk.FitFinderSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -699,7 +697,7 @@
 		0A7BE8172CE7E57B00BC6610 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGM96VQ367;
