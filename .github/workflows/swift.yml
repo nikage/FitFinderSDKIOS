@@ -1,9 +1,4 @@
 
----
-
-### **GitHub CI/CD**
-Add a `.github/workflows/ci.yml` file:
-```yaml
 name: FitFinder CI
 
 on:
