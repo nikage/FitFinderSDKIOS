@@ -1,36 +1,16 @@
-//
-//  FitFinderSDKTests.swift
-//  FitFinderSDKTests
-//
-//  Created by Mykola Mikhno on 15.11.2024.
-//
-
 import XCTest
 @testable import FitFinderSDK
 
-final class FitFinderSDKTests: XCTestCase {
+class SizeCalculatorTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testCalculateBMI() {
+        XCTAssertEqual(SizeCalculator.calculateBMI(height: 170, weight: 70), 24.22, accuracy: 0.01)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testSizeRecommendation() {
+        XCTAssertEqual(SizeCalculator.sizeFromBMI(17.0), "S")
+        XCTAssertEqual(SizeCalculator.sizeFromBMI(20.0), "M")
+        XCTAssertEqual(SizeCalculator.sizeFromBMI(27.0), "L")
+        XCTAssertEqual(SizeCalculator.sizeFromBMI(35.0), "XL")
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }

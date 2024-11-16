@@ -1,13 +1,10 @@
-# ``FitFinderSDK``
+# FitFinderSDK
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+FitFinderSDK is a lightweight iOS SDK for recommending clothing sizes based on user height and weight using BMI calculations.
 
-## Overview
+## Installation
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+To integrate FitFinderSDK into your project, add the following dependency to your `Package.swift`:
 
-## Topics
-
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
-
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+```swift
+.package(url: "https://github.com/your-repo/FitFinderSDK.git", from: "1.0.0")

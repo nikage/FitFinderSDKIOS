@@ -11,6 +11,19 @@
 		0A7BE8092CE7E57B00BC6610 /* FitFinderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7BE7FE2CE7E57B00BC6610 /* FitFinderSDK.framework */; };
 		0A7BE80E2CE7E57B00BC6610 /* FitFinderSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE80D2CE7E57B00BC6610 /* FitFinderSDKTests.swift */; };
 		0A7BE80F2CE7E57B00BC6610 /* FitFinderSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7BE8012CE7E57B00BC6610 /* FitFinderSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7BE81A2CE7E5BE00BC6610 /* FitFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */; };
+		0A7BE81B2CE7E5BE00BC6610 /* FitFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */; };
+		0A7BE81D2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */; };
+		0A7BE81E2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */; };
+		0A7BE82E2CE7EBBE00BC6610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE82D2CE7EBBE00BC6610 /* AppDelegate.swift */; };
+		0A7BE8302CE7EBBE00BC6610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE82F2CE7EBBE00BC6610 /* SceneDelegate.swift */; };
+		0A7BE8322CE7EBBE00BC6610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8312CE7EBBE00BC6610 /* ViewController.swift */; };
+		0A7BE8352CE7EBBF00BC6610 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0A7BE8342CE7EBBE00BC6610 /* Base */; };
+		0A7BE8372CE7EBC000BC6610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7BE8362CE7EBC000BC6610 /* Assets.xcassets */; };
+		0A7BE83A2CE7EBC000BC6610 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0A7BE8392CE7EBC000BC6610 /* Base */; };
+		0A7BE8452CE7EBC100BC6610 /* FitFinderSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8442CE7EBC100BC6610 /* FitFinderSampleAppTests.swift */; };
+		0A7BE84F2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE84E2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift */; };
+		0A7BE8512CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BE8502CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +34,20 @@
 			remoteGlobalIDString = 0A7BE7FD2CE7E57B00BC6610;
 			remoteInfo = FitFinderSDK;
 		};
+		0A7BE8412CE7EBC100BC6610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7BE7F52CE7E57B00BC6610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7BE82A2CE7EBBE00BC6610;
+			remoteInfo = FitFinderSampleApp;
+		};
+		0A7BE84B2CE7EBC100BC6610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7BE7F52CE7E57B00BC6610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7BE82A2CE7EBBE00BC6610;
+			remoteInfo = FitFinderSampleApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +56,22 @@
 		0A7BE8022CE7E57B00BC6610 /* FitFinderSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FitFinderSDK.docc; sourceTree = "<group>"; };
 		0A7BE8082CE7E57B00BC6610 /* FitFinderSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFinderSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7BE80D2CE7E57B00BC6610 /* FitFinderSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinderSDKTests.swift; sourceTree = "<group>"; };
+		0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinder.swift; sourceTree = "<group>"; };
+		0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCalculator.swift; sourceTree = "<group>"; };
+		0A7BE8222CE7E97A00BC6610 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		0A7BE82B2CE7EBBE00BC6610 /* FitFinderSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFinderSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7BE82D2CE7EBBE00BC6610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A7BE82F2CE7EBBE00BC6610 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A7BE8312CE7EBBE00BC6610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A7BE8342CE7EBBE00BC6610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A7BE8362CE7EBC000BC6610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7BE8392CE7EBC000BC6610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7BE83B2CE7EBC000BC6610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7BE8402CE7EBC100BC6610 /* FitFinderSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFinderSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7BE8442CE7EBC100BC6610 /* FitFinderSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinderSampleAppTests.swift; sourceTree = "<group>"; };
+		0A7BE84A2CE7EBC100BC6610 /* FitFinderSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFinderSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7BE84E2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinderSampleAppUITests.swift; sourceTree = "<group>"; };
+		0A7BE8502CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFinderSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +90,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A7BE8282CE7EBBE00BC6610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BE83D2CE7EBC100BC6610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BE8472CE7EBC100BC6610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0A7BE7F42CE7E57B00BC6610 = {
 			isa = PBXGroup;
 			children = (
+				0A7BE85B2CE7EE2D00BC6610 /* SampleApp */,
+				0A7BE8222CE7E97A00BC6610 /* Package.swift */,
+				0A7BE8182CE7E5A800BC6610 /* Sources */,
 				0A7BE8002CE7E57B00BC6610 /* FitFinderSDK */,
 				0A7BE80C2CE7E57B00BC6610 /* FitFinderSDKTests */,
 				0A7BE7FF2CE7E57B00BC6610 /* Products */,
@@ -64,6 +131,9 @@
 			children = (
 				0A7BE7FE2CE7E57B00BC6610 /* FitFinderSDK.framework */,
 				0A7BE8082CE7E57B00BC6610 /* FitFinderSDKTests.xctest */,
+				0A7BE82B2CE7EBBE00BC6610 /* FitFinderSampleApp.app */,
+				0A7BE8402CE7EBC100BC6610 /* FitFinderSampleAppTests.xctest */,
+				0A7BE84A2CE7EBC100BC6610 /* FitFinderSampleAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +153,56 @@
 				0A7BE80D2CE7E57B00BC6610 /* FitFinderSDKTests.swift */,
 			);
 			path = FitFinderSDKTests;
+			sourceTree = "<group>";
+		};
+		0A7BE8182CE7E5A800BC6610 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BE8192CE7E5BE00BC6610 /* FitFinder.swift */,
+				0A7BE81C2CE7E5ED00BC6610 /* SizeCalculator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0A7BE82C2CE7EBBE00BC6610 /* FitFinderSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BE82D2CE7EBBE00BC6610 /* AppDelegate.swift */,
+				0A7BE82F2CE7EBBE00BC6610 /* SceneDelegate.swift */,
+				0A7BE8312CE7EBBE00BC6610 /* ViewController.swift */,
+				0A7BE8332CE7EBBE00BC6610 /* Main.storyboard */,
+				0A7BE8362CE7EBC000BC6610 /* Assets.xcassets */,
+				0A7BE8382CE7EBC000BC6610 /* LaunchScreen.storyboard */,
+				0A7BE83B2CE7EBC000BC6610 /* Info.plist */,
+			);
+			path = FitFinderSampleApp;
+			sourceTree = "<group>";
+		};
+		0A7BE8432CE7EBC100BC6610 /* FitFinderSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BE8442CE7EBC100BC6610 /* FitFinderSampleAppTests.swift */,
+			);
+			path = FitFinderSampleAppTests;
+			sourceTree = "<group>";
+		};
+		0A7BE84D2CE7EBC100BC6610 /* FitFinderSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BE84E2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift */,
+				0A7BE8502CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift */,
+			);
+			path = FitFinderSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		0A7BE85B2CE7EE2D00BC6610 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BE82C2CE7EBBE00BC6610 /* FitFinderSampleApp */,
+				0A7BE8432CE7EBC100BC6610 /* FitFinderSampleAppTests */,
+				0A7BE84D2CE7EBC100BC6610 /* FitFinderSampleAppUITests */,
+			);
+			name = SampleApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +255,59 @@
 			productReference = 0A7BE8082CE7E57B00BC6610 /* FitFinderSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0A7BE82A2CE7EBBE00BC6610 /* FitFinderSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7BE8522CE7EBC100BC6610 /* Build configuration list for PBXNativeTarget "FitFinderSampleApp" */;
+			buildPhases = (
+				0A7BE8272CE7EBBE00BC6610 /* Sources */,
+				0A7BE8282CE7EBBE00BC6610 /* Frameworks */,
+				0A7BE8292CE7EBBE00BC6610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitFinderSampleApp;
+			productName = FitFinderSampleApp;
+			productReference = 0A7BE82B2CE7EBBE00BC6610 /* FitFinderSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A7BE83F2CE7EBC100BC6610 /* FitFinderSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7BE8552CE7EBC100BC6610 /* Build configuration list for PBXNativeTarget "FitFinderSampleAppTests" */;
+			buildPhases = (
+				0A7BE83C2CE7EBC100BC6610 /* Sources */,
+				0A7BE83D2CE7EBC100BC6610 /* Frameworks */,
+				0A7BE83E2CE7EBC100BC6610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7BE8422CE7EBC100BC6610 /* PBXTargetDependency */,
+			);
+			name = FitFinderSampleAppTests;
+			productName = FitFinderSampleAppTests;
+			productReference = 0A7BE8402CE7EBC100BC6610 /* FitFinderSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A7BE8492CE7EBC100BC6610 /* FitFinderSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7BE8582CE7EBC100BC6610 /* Build configuration list for PBXNativeTarget "FitFinderSampleAppUITests" */;
+			buildPhases = (
+				0A7BE8462CE7EBC100BC6610 /* Sources */,
+				0A7BE8472CE7EBC100BC6610 /* Frameworks */,
+				0A7BE8482CE7EBC100BC6610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7BE84C2CE7EBC100BC6610 /* PBXTargetDependency */,
+			);
+			name = FitFinderSampleAppUITests;
+			productName = FitFinderSampleAppUITests;
+			productReference = 0A7BE84A2CE7EBC100BC6610 /* FitFinderSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +323,17 @@
 					};
 					0A7BE8072CE7E57B00BC6610 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					0A7BE82A2CE7EBBE00BC6610 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0A7BE83F2CE7EBC100BC6610 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0A7BE82A2CE7EBBE00BC6610;
+					};
+					0A7BE8492CE7EBC100BC6610 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0A7BE82A2CE7EBBE00BC6610;
 					};
 				};
 			};
@@ -168,6 +352,9 @@
 			targets = (
 				0A7BE7FD2CE7E57B00BC6610 /* FitFinderSDK */,
 				0A7BE8072CE7E57B00BC6610 /* FitFinderSDKTests */,
+				0A7BE82A2CE7EBBE00BC6610 /* FitFinderSampleApp */,
+				0A7BE83F2CE7EBC100BC6610 /* FitFinderSampleAppTests */,
+				0A7BE8492CE7EBC100BC6610 /* FitFinderSampleAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +374,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A7BE8292CE7EBBE00BC6610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7BE8372CE7EBC000BC6610 /* Assets.xcassets in Resources */,
+				0A7BE83A2CE7EBC000BC6610 /* Base in Resources */,
+				0A7BE8352CE7EBBF00BC6610 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BE83E2CE7EBC100BC6610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BE8482CE7EBC100BC6610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +406,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7BE8032CE7E57B00BC6610 /* FitFinderSDK.docc in Sources */,
+				0A7BE81D2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */,
+				0A7BE81A2CE7E5BE00BC6610 /* FitFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +416,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7BE80E2CE7E57B00BC6610 /* FitFinderSDKTests.swift in Sources */,
+				0A7BE81E2CE7E5ED00BC6610 /* SizeCalculator.swift in Sources */,
+				0A7BE81B2CE7E5BE00BC6610 /* FitFinder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BE8272CE7EBBE00BC6610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7BE8322CE7EBBE00BC6610 /* ViewController.swift in Sources */,
+				0A7BE82E2CE7EBBE00BC6610 /* AppDelegate.swift in Sources */,
+				0A7BE8302CE7EBBE00BC6610 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BE83C2CE7EBC100BC6610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7BE8452CE7EBC100BC6610 /* FitFinderSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BE8462CE7EBC100BC6610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7BE8512CE7EBC100BC6610 /* FitFinderSampleAppUITestsLaunchTests.swift in Sources */,
+				0A7BE84F2CE7EBC100BC6610 /* FitFinderSampleAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +456,36 @@
 			target = 0A7BE7FD2CE7E57B00BC6610 /* FitFinderSDK */;
 			targetProxy = 0A7BE80A2CE7E57B00BC6610 /* PBXContainerItemProxy */;
 		};
+		0A7BE8422CE7EBC100BC6610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7BE82A2CE7EBBE00BC6610 /* FitFinderSampleApp */;
+			targetProxy = 0A7BE8412CE7EBC100BC6610 /* PBXContainerItemProxy */;
+		};
+		0A7BE84C2CE7EBC100BC6610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7BE82A2CE7EBBE00BC6610 /* FitFinderSampleApp */;
+			targetProxy = 0A7BE84B2CE7EBC100BC6610 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A7BE8332CE7EBBE00BC6610 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7BE8342CE7EBBE00BC6610 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A7BE8382CE7EBC000BC6610 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7BE8392CE7EBC000BC6610 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A7BE8102CE7E57B00BC6610 /* Debug */ = {
@@ -411,6 +682,7 @@
 		0A7BE8162CE7E57B00BC6610 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGM96VQ367;
@@ -427,6 +699,7 @@
 		0A7BE8172CE7E57B00BC6610 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGM96VQ367;
@@ -437,6 +710,138 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A7BE8532CE7EBC100BC6610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGM96VQ367;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitFinderSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickmihno.tests.fitfindersdk.FitFinderSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A7BE8542CE7EBC100BC6610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGM96VQ367;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitFinderSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickmihno.tests.fitfindersdk.FitFinderSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A7BE8562CE7EBC100BC6610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGM96VQ367;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickmihno.tests.fitfindersdk.FitFinderSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFinderSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitFinderSampleApp";
+			};
+			name = Debug;
+		};
+		0A7BE8572CE7EBC100BC6610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGM96VQ367;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickmihno.tests.fitfindersdk.FitFinderSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFinderSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitFinderSampleApp";
+			};
+			name = Release;
+		};
+		0A7BE8592CE7EBC100BC6610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGM96VQ367;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickmihno.tests.fitfindersdk.FitFinderSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitFinderSampleApp;
+			};
+			name = Debug;
+		};
+		0A7BE85A2CE7EBC100BC6610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGM96VQ367;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickmihno.tests.fitfindersdk.FitFinderSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitFinderSampleApp;
 			};
 			name = Release;
 		};
@@ -466,6 +871,33 @@
 			buildConfigurations = (
 				0A7BE8162CE7E57B00BC6610 /* Debug */,
 				0A7BE8172CE7E57B00BC6610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7BE8522CE7EBC100BC6610 /* Build configuration list for PBXNativeTarget "FitFinderSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7BE8532CE7EBC100BC6610 /* Debug */,
+				0A7BE8542CE7EBC100BC6610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7BE8552CE7EBC100BC6610 /* Build configuration list for PBXNativeTarget "FitFinderSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7BE8562CE7EBC100BC6610 /* Debug */,
+				0A7BE8572CE7EBC100BC6610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7BE8582CE7EBC100BC6610 /* Build configuration list for PBXNativeTarget "FitFinderSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7BE8592CE7EBC100BC6610 /* Debug */,
+				0A7BE85A2CE7EBC100BC6610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
