@@ -97,3 +97,7 @@ struct ContentView: View {
 | `18.5 - 24.9`    | M    |
 | `25.0 - 29.9`    | L    |
 | `>= 30.0`        | XL   |
+
+## See Also 
+
+https://github.com/nikage/FitFinderSDKAndroid 
